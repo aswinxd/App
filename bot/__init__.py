@@ -1,4 +1,4 @@
-from config import Config
+from .config import Config
 
 from .client import Client
 from .utils.initialization import check_pending
