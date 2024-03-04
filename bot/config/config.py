@@ -5,7 +5,9 @@ from dotenv import load_dotenv
 load_dotenv("./.env")
 
 
-class Config:xvfZYfD7swIxvU")
+
+class Config:
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "2119246346:AAFRYFzFIi4ibCxlsukcULuLPH0NqPEtvHo")
   BOT_NAME = os.environ.get("BOT_NAME", "Aleena")
 
   API_ID = int(os.environ.get("API_ID", "15851949"))
