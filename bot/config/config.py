@@ -7,7 +7,7 @@ load_dotenv("./.env")
 
 
 class Config:
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "2119246346:AAEuYRVbD71OTldHTyVUVaj2AtG0HxcveqM")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "2119246346:AAFTvADWaUvOx_6t9RQn0COULMMZAAdgvGU")
   BOT_NAME = os.environ.get("BOT_NAME", "boy")
 
   API_ID = int(os.environ.get("API_ID", "15851949"))
